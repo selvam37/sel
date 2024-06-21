@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4; /* Light background color */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff; /* White background for content */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+            border-radius: 10px;
+        }
+        h1, h2 {
+            text-align: center;
+            transition: transform 0.3s ease; /* Smooth transition for hover effect */
+            margin-top: 0;
+        }
+        p {
+            transition: transform 0.3s ease; /* Smooth transition for hover effect */
+        }
+        .profile-pic {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            text-align: justify;
+            padding: 20px;
+        }
+        .contact {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+        .contact a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .contact a:hover {
+            color: #007BFF;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                margin: 20px auto;
+            }
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+        }
+        h1:hover, h2:hover, p:hover {
+            transform: translateY(-3px); /* Lift effect */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        <h2>John Doe</h2>
+        <div class="content">
+            <p>Hello! My name is John Doe. I am a web developer with a passion for creating clean and efficient websites. I have been in the industry for over 5 years and have worked on a variety of projects, ranging from small business websites to large e-commerce platforms.</p>
+            <p>In my free time, I enjoy hiking, reading, and exploring new technologies. I am always eager to learn and grow, both professionally and personally. Thank you for visiting my page!</p>
+        </div>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            <p>Follow me on:
+                <a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn</a> |
+                <a href="https://twitter.com/johndoe" target="_blank">Twitter</a> |
+                <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
